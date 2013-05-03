@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+  
+ 
+    <!-- Input Name -->
+    <TextView android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+       android:gravity="center_horizontal"
+        android:textSize="13pt"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+       />
+    <TextView android:id="@+id/businessName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:textSize="12pt"
+        android:layout_below="@+id/inputName"
+        android:textStyle="bold"
+        android:singleLine="true"
+       />
+    <TextView android:id="@+id/Locations"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_below="@+id/businessName"
+       />
+ 
+    <!-- Price Label -->
+    <TextView 
+        android:id="@+id/priceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textStyle="bold"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17dip"
+        android:layout_above="@+id/inputPrice"
+        />
+ 
+    <!-- Input Price -->
+    <TextView android:id="@+id/inputPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        android:inputType="numberDecimal"
+       android:layout_above="@+id/descriptionLabel"
+        />
+ 
+    <!-- Description Label -->
+    <TextView
+        android:id="@+id/descriptionLabel" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textStyle="bold"
+        android:textSize="17dip"
+        android:layout_above="@+id/inputDesc"/>
+ 
+    <!-- Input description -->
+    <TextView android:id="@+id/inputDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:lines="4"
+        android:gravity="top"
+       android:layout_above="@+id/phonePickerLabel"/>
+    
+    <RelativeLayout  
+        android:id="@+id/phonePickerLabel"
+    android:layout_height="wrap_content"  
+    android:layout_width="match_parent"
+   android:layout_above="@+id/labelRefer">  
+    <EditText  
+        android:layout_height="wrap_content"  
+        android:hint="@string/phone_hint"  
+        android:id="@+id/invite_phone"  
+        android:inputType="phone"  
+        android:layout_width="wrap_content"  
+        android:layout_toLeftOf="@+id/do_phone_picker"  
+        android:layout_alignParentLeft="true"></EditText>  
+    <Button  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:id="@+id/do_phone_picker"  
+        android:text="@string/pick_phone_label"  
+        android:layout_alignParentRight="true"  
+        android:onClick="doLaunchContactPicker"></Button>  
+</RelativeLayout>  
+ 
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/labelRefer">
+        <!-- Button Create Product -->
+    <Button android:id="@+id/btnSave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Refer"
+        android:layout_weight="1"/>
+ 
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_weight="1"/>
+    </LinearLayout>
+ 
+</RelativeLayout>

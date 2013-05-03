@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BizLink</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="select_string">Select preferred items</string>
+    <string name="phone_hint">Enter phone number.....</string>
+    <string name="pick_phone_label">Browse</string>
+    <string name="bizlink">BizLink</string>
+    <string name="contacts">Satisfied with our services?&lt;br&gt; BizLink team is happy to hear from you. &lt;br&gt; &lt;b&gt;Website: http://bizlink.site40.net&lt;br&gt; &lt;b&gt;Email:&lt;/b&gt; david.maraba@gmail.com&lt;br&gt; &lt;b&gt;Phone: &lt;/b&gt;+25472700120</string>
+    <string name="about">BizLink is mobile applications that simplifies the sales and marketing workload of companies by making interested app users their Agents.&lt;br&gt; It works in a link-reward scheme.&lt;br&gt;This is whereby the agents earn points for every successfull link of a client to a product or business.&lt;br&gt; These points are redeemable for the various awards set up by the listed businesses.&lt;br&gt; For more visit http://www.bizlink.site40.net</string>
+    <string name="help">The steps for using the app are: &lt;ol&gt;&lt;li&gt;Register (If new) and select the categories of products/deals you would like to be an agent to.&lt;/li&gt;&lt;li&gt;Check on the deals that you have an idea of an interested party&lt;/li&gt;&lt;li&gt;Send the deal to the individual.&lt;li&gt;&lt;li&gt;Upon the client taking up the product your points will be updated&lt;/li&gt;&lt;li&gt;These points can be redeemed from the listing company(details provided)&lt;/li&gt;&lt;/ol&gt;. Its that simple! For more check: http://www.bizlink.site40.net</string>
+
+</resources>

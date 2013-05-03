@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.bizlink.DashBoardLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:layout_weight="1"
+  
+     >
+
+    <!-- Subscribed Hooks Button -->
+    <Button 
+        android:id="@+id/btn_subscribedHooks"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/subscribed"
+        android:text="Subscribed Links"/>
+    
+    <!-- Hot Hooks -->
+    <Button 
+        android:id="@+id/btn_hotHooks"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/featured"
+        android:text="Featured Links"/>
+    
+    <!-- Hooks AroundMe -->
+    <Button 
+        android:id="@+id/btn_HooksAround"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/location"
+        android:text="Links AroundMe"/>
+    <!-- Points Button -->
+    <Button 
+        android:id="@+id/btn_Points"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/points"
+        android:text="Points"/>
+    <!-- About Button -->
+    <Button 
+        android:id="@+id/btn_About"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/about"
+        android:text="About"/>
+        <Button 
+        android:id="@+id/btn_logout"
+        style="@style/DashboardButton"
+      
+        android:text=""/>
+        
+       
+</com.bizlink.DashBoardLayout>
